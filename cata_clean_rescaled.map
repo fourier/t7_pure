@@ -7052,44 +7052,451 @@
 {
 "classname" "info_player_deathmatch"
 "origin" "828.0 -312.0 233.6"
-"angle" "225.0"
+"angle" "45.0"
 }
 // entity 2
 {
 "classname" "info_player_deathmatch"
 "origin" "1020.0 64.0 176.0"
-"angle" "270.0"
+"angle" "0.0"
 }
 // entity 3
 {
 "classname" "info_player_deathmatch"
 "origin" "1492.0 -416.0 -22.4"
+"angle" "90"
 }
 // entity 4
 {
 "classname" "info_player_deathmatch"
 "origin" "572.0 -448.0 48.0"
-"angle" "225.0"
+"angle" "45.0"
 }
 // entity 5
 {
 "classname" "info_player_deathmatch"
 "origin" "-284.0 -72.0 252.8"
-"angle" "315.0"
+"angle" "-45.0"
 }
 // entity 6
 {
 "classname" "info_player_deathmatch"
 "origin" "228.0 -344.0 252.8"
+"angle" "90"
 }
 // entity 7
 {
 "classname" "info_player_deathmatch"
 "origin" "852.0 168.0 16.0"
-"angle" "90.0"
+"angle" "180.0"
 }
 // entity 8
 {
-"classname" "weapon_rocketlauncher"
-"origin" "1464 -88 -38"
+"classname" "light_globe"
+"origin" "604.0 220.0 172.8"
+}
+// entity 9
+{
+"classname" "light_globe"
+"origin" "336.0 448.0 163.2"
+}
+// entity 10
+{
+"classname" "light_globe"
+"origin" "1056.0 392.0 172.8"
+}
+// entity 11
+{
+"classname" "light_globe"
+"origin" "504.0 -296.0 390.4"
+}
+// entity 12
+{
+"classname" "light"
+"origin" "1522.0 -508.0 147.2"
+}
+// entity 13
+{
+"classname" "light"
+"origin" "1568.0 96.0 147.2"
+}
+// entity 14
+{
+"classname" "light_globe"
+"origin" "1384.0 256.00006 377.6"
+}
+// entity 15
+{
+"classname" "light"
+"origin" "1440.0 32.0 428.80002"
+}
+// entity 16
+{
+"classname" "light"
+"origin" "476.0 344.0 428.80002"
+}
+// entity 17
+{
+"classname" "light"
+"origin" "192.0 120.0 428.80002"
+}
+// entity 18
+{
+"classname" "light"
+"origin" "676.0 -100.0 428.80002"
+}
+// entity 19
+{
+"classname" "light_globe"
+"origin" "680.0 -88.0 44.8"
+}
+// entity 20
+{
+"classname" "light_globe"
+"origin" "1432.0 -184.0 377.6"
+}
+// entity 21
+{
+"classname" "light_globe"
+"origin" "992.0 -112.0 12.8"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "1044.0 312.0 428.80002"
+}
+// entity 23
+{
+"classname" "light_globe"
+"origin" "568.0 -456.0 198.40001"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "912.0 472.0 172.8"
+}
+// entity 25
+{
+"classname" "light_globe"
+"origin" "808.0 296.0 387.2"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "1446.0 224.0 177.6"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "1484.0 64.0 177.6"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "980.0 64.0 177.6"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "1248.0 206.0 177.6"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "1296.0 288.0 812.8"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "1424.0 288.0 812.8"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "1168.0 288.0 812.8"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "1040.0 288.0 812.8"
+}
+// entity 34
+{
+"classname" "light"
+"origin" "1004.0 220.0 1036.8"
+}
+// entity 35
+{
+"classname" "light"
+"origin" "1132.0 220.0 1036.8"
+}
+// entity 36
+{
+"classname" "light"
+"origin" "1260.0 220.0 1036.8"
+}
+// entity 37
+{
+"classname" "light"
+"origin" "1388.0 220.0 1043.2001"
+}
+// entity 38
+{
+"classname" "light"
+"origin" "560.0 412.0 197.6"
+}
+// entity 39
+{
+"classname" "light"
+"origin" "560.0 220.0 197.6"
+}
+// entity 40
+{
+"classname" "light"
+"origin" "264.0 492.0 197.6"
+}
+// entity 41
+{
+"classname" "light"
+"origin" "-12.0 292.0 197.6"
+}
+// entity 42
+{
+"classname" "light"
+"origin" "684.0 -220.0 248.8"
+}
+// entity 43
+{
+"classname" "light"
+"origin" "684.0 -344.0 248.8"
+}
+// entity 44
+{
+"classname" "light_globe"
+"origin" "832.0 -416.0 204.8"
+}
+// entity 45
+{
+"classname" "light_globe"
+"origin" "832.0 -544.0 204.8"
+}
+// entity 46
+{
+"classname" "light"
+"origin" "1640.0 47.99994 761.60004"
+}
+// entity 47
+{
+"classname" "light"
+"origin" "1640.0001 -80.0 761.60004"
+}
+// entity 48
+{
+"classname" "light"
+"origin" "1815.9998 -15.999878 1017.60004"
+}
+// entity 49
+{
+"classname" "light"
+"origin" "1815.9998 112.00012 1017.60004"
+}
+// entity 50
+{
+"classname" "light"
+"origin" "-112.0 -440.0 761.60004"
+}
+// entity 51
+{
+"classname" "light"
+"origin" "-192.0 -440.0 761.60004"
+}
+// entity 52
+{
+"classname" "light"
+"origin" "-266.0 -424.0 867.2"
+}
+// entity 53
+{
+"classname" "light"
+"origin" "-266.0 -360.0 867.2"
+}
+// entity 54
+{
+"classname" "light"
+"origin" "-266.0 -296.0 867.2"
+}
+// entity 55
+{
+"classname" "light"
+"origin" "-266.0 -232.0 867.2"
+}
+// entity 56
+{
+"classname" "light"
+"origin" "-306.0 -424.0 809.60004"
+}
+// entity 57
+{
+"classname" "light"
+"origin" "-306.0 -360.0 809.60004"
+}
+// entity 58
+{
+"classname" "light"
+"origin" "-306.0 -296.0 809.60004"
+}
+// entity 59
+{
+"classname" "light"
+"origin" "-306.0 -232.0 809.60004"
+}
+// entity 60
+{
+"classname" "light"
+"origin" "200.0 204.0 69.6"
+}
+// entity 61
+{
+"classname" "light"
+"origin" "528.0 264.0 12.0"
+}
+// entity 62
+{
+"classname" "light"
+"origin" "796.0 148.0 12.0"
+}
+// entity 63
+{
+"classname" "light"
+"origin" "724.0 416.0 12.0"
+}
+// entity 64
+{
+"classname" "light"
+"origin" "1164.0 415.99997 12.0"
+}
+// entity 65
+{
+"classname" "light"
+"origin" "1024.0 192.0 -20.0"
+}
+// entity 66
+{
+"classname" "light"
+"origin" "1184.0 -112.0 -20.0"
+}
+// entity 67
+{
+"classname" "light"
+"origin" "1456.0 180.0 -20.0"
+}
+// entity 68
+{
+"classname" "light"
+"origin" "1536.0 -112.0 -20.0"
+}
+// entity 69
+{
+"classname" "light"
+"origin" "1408.0 -446.0 -20.0"
+}
+// entity 70
+{
+"classname" "light"
+"origin" "876.0 220.0 1036.8"
+}
+// entity 71
+{
+"classname" "light"
+"origin" "856.0 220.0 972.8"
+}
+// entity 72
+{
+"classname" "light"
+"origin" "836.0 108.0 889.60004"
+}
+// entity 73
+{
+"classname" "light"
+"origin" "836.0 236.0 889.60004"
+}
+// entity 74
+{
+"classname" "light"
+"origin" "912.0 288.0 812.8"
+}
+// entity 75
+{
+"classname" "light"
+"origin" "-120.0 80.000244 832.0"
+}
+// entity 76
+{
+"classname" "light"
+"origin" "-119.999756 208.0 832.0"
+}
+// entity 77
+{
+"classname" "light"
+"origin" "-271.9995 48.0 1017.60004"
+}
+// entity 78
+{
+"classname" "light"
+"origin" "-271.99963 176.00012 1017.60004"
+}
+// entity 79
+{
+"classname" "light"
+"origin" "-271.99963 304.00012 1017.60004"
+}
+// entity 80
+{
+"classname" "light"
+"origin" "-119.999756 336.0 832.0"
+}
+// entity 81
+{
+"classname" "light"
+"origin" "688.0 106.0 280.80002"
+}
+// entity 82
+{
+"classname" "light"
+"origin" "1776.0 -400.00012 -20.0"
+}
+// entity 83
+{
+"classname" "light_globe"
+"origin" "1112.0 -392.0 198.40001"
+}
+// entity 84
+{
+"classname" "light_globe"
+"origin" "-248.0 -144.0 390.4"
+}
+// entity 85
+{
+"classname" "light_globe"
+"origin" "896.0 -252.0 377.6"
+}
+// entity 86
+{
+"classname" "light"
+"origin" "1568.0 -128.0 147.2"
+}
+// entity 87
+{
+"classname" "light_globe"
+"origin" "1304.0 248.0 147.2"
+}
+// entity 88
+{
+"classname" "light"
+"origin" "1136.0 -512.0 171.2"
+}
+// entity 89
+{
+"classname" "light"
+"origin" "368.0 256.0 172.8"
 }
