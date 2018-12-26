@@ -5106,3 +5106,8 @@
 "classname" "light"
 "origin" "57 412 340"
 }
+// entity 70
+{
+"classname" "light"
+"origin" "516 336 387"
+}
