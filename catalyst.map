@@ -3706,18 +3706,18 @@
 }
 // brush 420
 {
-( 1772 -488 77 ) ( 1772 -488 90 ) ( 1772 -472 90 ) solid_gray_dd -0 -0 -0 1 1
-( 1764 -472 90 ) ( 1764 -488 90 ) ( 1764 -488 77 ) solid_gray_dd -0 -0 -0 1 1
-( 1764 -472 90 ) ( 1764 -488 77 ) ( 1772 -488 77 ) solid_gray_dd -0 -0 -0 1 1
-( 1764 -488 90 ) ( 1772 -488 90 ) ( 1772 -488 77 ) solid_gray_dd -16 -0 -0 1 1
-( 1772 -472 90 ) ( 1772 -488 90 ) ( 1764 -488 90 ) solid_gray_dd -16 -0 -0 1 1
+( 1772 -497 77 ) ( 1772 -497 90 ) ( 1772 -481 90 ) solid_gray_dd 9 -0 -0 1 1
+( 1764 -481 90 ) ( 1764 -497 90 ) ( 1764 -497 77 ) solid_gray_dd 9 -0 -0 1 1
+( 1764 -481 90 ) ( 1764 -497 77 ) ( 1772 -497 77 ) solid_gray_dd -0 -9 -0 1 1
+( 1764 -497 90 ) ( 1772 -497 90 ) ( 1772 -497 77 ) solid_gray_dd -0 -0 -0 1 1
+( 1772 -481 90 ) ( 1772 -497 90 ) ( 1764 -497 90 ) solid_gray_dd -0 -9 -0 1 1
 }
 // brush 421
 {
 ( 1772 -488 83 ) ( 1772 -544 83 ) ( 1764 -544 90 ) solid_gray_dd -0 -0 -0 1 1
 ( 1772 -488 -64 ) ( 1772 -544 -64 ) ( 1772 -544 83 ) solid_gray_dd -0 -0 -0 1 1
 ( 1764 -544 -64 ) ( 1764 -488 -64 ) ( 1764 -488 90 ) solid_gray_dd -0 -0 -0 1 1
-( 1764 -488 -64 ) ( 1772 -488 -64 ) ( 1772 -488 83 ) solid_gray_dd -16 -0 -0 1 1
+( 1764 -497 -64 ) ( 1772 -497 -64 ) ( 1772 -497 83 ) solid_gray_dd -0 -0 -0 1 1
 ( 1772 -544 83 ) ( 1772 -544 -64 ) ( 1764 -544 -64 ) solid_gray_dd -16 -0 -0 1 1
 ( 1764 -544 -64 ) ( 1772 -544 -64 ) ( 1772 -488 -64 ) solid_gray_dd -16 -0 -0 1 1
 }
@@ -6175,6 +6175,22 @@
 ( 1136 304 203 ) ( 1154 312 203 ) ( 1136 312 203 ) clip 0 0 0 1 1
 ( 1136 312 203 ) ( 1154 312 203 ) ( 1136 312 211 ) clip -0 -0 0 1 1
 }
+// brush 700
+{
+( 1232 -568 141 ) ( 1232 -568 154 ) ( 1216 -568 154 ) solid_gray_dd -8 -0 180 1 -1
+( 1216 -576 154 ) ( 1232 -576 154 ) ( 1232 -576 141 ) solid_gray_dd -8 -0 180 1 -1
+( 1216 -576 154 ) ( 1232 -576 141 ) ( 1232 -568 141 ) solid_gray_dd 4 8 90 1 1
+( 1232 -576 154 ) ( 1232 -568 154 ) ( 1232 -568 141 ) solid_gray_dd 4 -0 -0 1 1
+( 1216 -568 154 ) ( 1232 -568 154 ) ( 1232 -576 154 ) solid_gray_dd 4 8 90 1 1
+}
+// brush 701
+{
+( 1088 -568 154 ) ( 1072 -568 154 ) ( 1072 -568 141 ) solid_gray_dd -0 -0 180 1 -1
+( 1072 -576 141 ) ( 1072 -576 154 ) ( 1088 -576 154 ) solid_gray_dd -0 -0 180 1 -1
+( 1072 -568 154 ) ( 1072 -576 154 ) ( 1072 -576 141 ) solid_gray_dd 4 -0 -0 1 1
+( 1088 -568 154 ) ( 1072 -568 141 ) ( 1072 -576 141 ) solid_gray_dd 4 -0 90 1 1
+( 1088 -576 154 ) ( 1072 -576 154 ) ( 1072 -568 154 ) solid_gray_dd 4 -0 90 1 1
+}
 }
 // entity 1
 {
@@ -6539,12 +6555,12 @@
 "target" "gl_area"
 // brush 0
 {
-( 1773 -320 -42 ) ( 1773 -496 -42 ) ( 1773 -496 96 ) rock4_1 -4 -4 -0 1 1
-( 1765 -496 -42 ) ( 1765 -320 -42 ) ( 1765 -320 96 ) rock4_1 -4 -4 -0 1 1
-( 1765 -320 96 ) ( 1765 -320 -42 ) ( 1773 -320 -42 ) rock4_1 -21 -4 -0 1 1
-( 1773 -496 -42 ) ( 1765 -496 -42 ) ( 1765 -496 96 ) rock4_1 -21 -4 -0 1 1
-( 1765 -320 96 ) ( 1773 -320 96 ) ( 1773 -496 96 ) rock4_1 -21 4 -0 1 1
-( 1773 -320 -42 ) ( 1765 -320 -42 ) ( 1765 -496 -42 ) rock4_1 -21 4 -0 1 1
+( 1781 -320 -42 ) ( 1781 -496 -42 ) ( 1781 -496 96 ) rock4_1 -4 -4 -0 1 1
+( 1773 -496 -42 ) ( 1773 -320 -42 ) ( 1773 -320 96 ) rock4_1 -4 -4 -0 1 1
+( 1773 -319 96 ) ( 1773 -319 -42 ) ( 1781 -319 -42 ) rock4_1 -29 -4 -0 1 1
+( 1781 -498 -42 ) ( 1773 -498 -42 ) ( 1773 -498 96 ) rock4_1 -29 -4 -0 1 1
+( 1773 -320 70 ) ( 1781 -320 70 ) ( 1781 -496 70 ) rock4_1 -29 4 -0 1 1
+( 1781 -320 -42 ) ( 1773 -320 -42 ) ( 1773 -496 -42 ) rock4_1 -29 4 -0 1 1
 }
 }
 // entity 52
@@ -6553,7 +6569,7 @@
 "target" "2nd_ya"
 // brush 0
 {
-( 1208 -556 23 ) ( 1208 -560 23 ) ( 1208 -560 145 ) *tele01 -28 -12 -0 1 1
+( 1234 -556 23 ) ( 1234 -560 23 ) ( 1234 -560 145 ) *tele01 -28 -12 -0 1 1
 ( 1056 -560 23 ) ( 1056 -556 23 ) ( 1056 -556 145 ) *tele01 -28 -12 -0 1 1
 ( 1056 -556 145 ) ( 1056 -556 23 ) ( 1208 -556 23 ) *tele01 -8 -12 -0 1 1
 ( 1208 -560 23 ) ( 1056 -560 23 ) ( 1056 -560 145 ) *tele01 -8 -12 -0 1 1
@@ -6595,15 +6611,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7681"
+"_tb_id" "8561"
 }
 // entity 58
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7682"
-"_tb_group" "7681"
+"_tb_id" "8562"
+"_tb_group" "8561"
 // brush 0
 {
 ( 614 -293 359.59998999999999 ) ( 614 -281 356.39999 ) ( 614 -293 356.39999 ) solid_gray_l 7 -2.79999 -0 1 -1
@@ -6687,7 +6703,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7683"
+"_tb_id" "8563"
 // brush 0
 {
 ( -179 -50 366 ) ( -179 -50 368 ) ( -179 -42 368 ) solid_gray_dd -0 -4 90 1 1
@@ -6725,22 +6741,22 @@
 "mangle" "0"
 "target" "null_gl_tele"
 "light" "150"
-"_tb_group" "7683"
+"_tb_group" "8563"
 }
 // entity 62
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7684"
+"_tb_id" "8564"
 }
 // entity 63
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7685"
-"_tb_group" "7684"
+"_tb_id" "8565"
+"_tb_group" "8564"
 // brush 0
 {
 ( -214 -422 456.4056079870644 ) ( -214 -410 453.20560798706441 ) ( -214 -422 453.20560798706441 ) solid_gray_l 8 -3.60559 -0 1 -1
@@ -6828,7 +6844,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7686"
+"_tb_id" "8566"
 // brush 0
 {
 ( 133.7192681101933 -324.54769523493951 356 ) ( 133.7192681101933 -324.54769523493951 358 ) ( 94.828395144933211 -285.65682226967937 358 ) solid_gray_dd -9.98001 6 180 0.707107 -1
@@ -6866,14 +6882,14 @@
 "angle" "135"
 "target" "null_gl"
 "light" "50"
-"_tb_group" "7686"
+"_tb_group" "8566"
 }
 // entity 68
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7687"
+"_tb_id" "8567"
 // brush 0
 {
 ( 7 50.571947568508961 364 ) ( 7 50.571947568508961 366 ) ( 7 105.57194756850896 366 ) solid_gray_dd -12.4281 14 180 1 -1
@@ -6910,7 +6926,7 @@
 "wait" "1"
 "angle" "0"
 "light" "60"
-"_tb_group" "7687"
+"_tb_group" "8567"
 }
 // entity 70
 {
@@ -6929,15 +6945,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7688"
+"_tb_id" "8568"
 }
 // entity 73
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7689"
-"_tb_group" "7688"
+"_tb_id" "8569"
+"_tb_group" "8568"
 // brush 0
 {
 ( 147 370 358 ) ( 147 382 354.80000000000001 ) ( 147 370 354.80000000000001 ) solid_gray_l 2 -2.79999 -0 1 -1
@@ -7026,7 +7042,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "hamp_sign"
-"_tb_id" "7690"
+"_tb_id" "8570"
 // brush 0
 {
 ( 342 520 294 ) ( 354 524 264 ) ( 342 520 238 ) solid_gray_l -0 -0 -0 1 1
@@ -7167,7 +7183,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7691"
+"_tb_id" "8571"
 // brush 0
 {
 ( 370 495 364 ) ( 370 495 366 ) ( 370 503 366 ) solid_gray_dd -14 -13 90 1 -1
@@ -7205,7 +7221,7 @@
 "angle" "-0"
 "light" "50"
 "target" "null_hamp"
-"_tb_group" "7691"
+"_tb_group" "8571"
 }
 // entity 80
 {
@@ -7267,15 +7283,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7692"
+"_tb_id" "8572"
 }
 // entity 92
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7693"
-"_tb_group" "7692"
+"_tb_id" "8573"
+"_tb_group" "8572"
 // brush 0
 {
 ( 297 -72 480 ) ( 297 -60 476.80000000000001 ) ( 297 -72 476.80000000000001 ) solid_gray_l 3 -2.79999 -0 1 -1
@@ -7350,15 +7366,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7694"
+"_tb_id" "8574"
 }
 // entity 94
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7695"
-"_tb_group" "7694"
+"_tb_id" "8575"
+"_tb_group" "8574"
 // brush 0
 {
 ( 347 382 154 ) ( 347 394 150.80000000000001 ) ( 347 382 150.80000000000001 ) solid_gray_l 7 -2.79999 -0 1 -1
@@ -7433,15 +7449,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7696"
+"_tb_id" "8576"
 }
 // entity 96
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7697"
-"_tb_group" "7696"
+"_tb_id" "8577"
+"_tb_group" "8576"
 // brush 0
 {
 ( 621 238 154 ) ( 621 250 150.80000000000001 ) ( 621 238 150.80000000000001 ) solid_gray_l 7 -2.79999 -0 1 -1
@@ -7516,15 +7532,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7698"
+"_tb_id" "8578"
 }
 // entity 98
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7699"
-"_tb_group" "7698"
+"_tb_id" "8579"
+"_tb_group" "8578"
 // brush 0
 {
 ( 575 -468 179.19999999999999 ) ( 575 -456 176 ) ( 575 -468 176 ) solid_gray_l 7 -2.79999 -0 1 -1
@@ -7599,7 +7615,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7700"
+"_tb_id" "8580"
 // brush 0
 {
 ( 909 -335 188 ) ( 909 -335 190 ) ( 909 -327 190 ) solid_gray_dd -6 -3 90 1 -1
@@ -7636,14 +7652,14 @@
 "wait" "2"
 "angle" "-0"
 "light" "150"
-"_tb_group" "7700"
+"_tb_group" "8580"
 }
 // entity 101
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7701"
+"_tb_id" "8581"
 // brush 0
 {
 ( 854 365 364.39999999999998 ) ( 854 365 366.39999999999998 ) ( 854 373 366.39999999999998 ) solid_gray_dd -0 -3 90 1 -1
@@ -7681,22 +7697,22 @@
 "light" "150"
 "target" "info_null_corridor4"
 "wait" "2"
-"_tb_group" "7701"
+"_tb_group" "8581"
 }
 // entity 103
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7702"
+"_tb_id" "8582"
 }
 // entity 104
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7703"
-"_tb_group" "7702"
+"_tb_id" "8583"
+"_tb_group" "8582"
 // brush 0
 {
 ( 1065 408 153.59999999999999 ) ( 1065 420 150.40000000000001 ) ( 1065 408 150.40000000000001 ) solid_gray_l 7 -2.79999 -0 1 -1
@@ -7771,7 +7787,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7704"
+"_tb_id" "8584"
 // brush 0
 {
 ( 898 189 149.59999999999999 ) ( 898 189 151.59999999999999 ) ( 898 244 151.59999999999999 ) solid_gray_dd 0.571899 6 180 1 -1
@@ -7808,22 +7824,22 @@
 "angle" "90"
 "light" "200"
 "delay" "0"
-"_tb_group" "7704"
+"_tb_group" "8584"
 }
 // entity 107
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7705"
+"_tb_id" "8585"
 }
 // entity 108
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7706"
-"_tb_group" "7705"
+"_tb_id" "8586"
+"_tb_group" "8585"
 // brush 0
 {
 ( 861 -302 358.39999999999998 ) ( 861 -290 355.19999999999999 ) ( 861 -302 355.19999999999999 ) solid_gray_l 7 -2.79999 -0 1 -1
@@ -7898,15 +7914,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7707"
+"_tb_id" "8587"
 }
 // entity 110
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7708"
-"_tb_group" "7707"
+"_tb_id" "8588"
+"_tb_group" "8587"
 // brush 0
 {
 ( 817 60 360.19999999999999 ) ( 817 72 357 ) ( 817 60 357 ) solid_gray_l 7 -2.79999 -0 1 -1
@@ -7981,7 +7997,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7709"
+"_tb_id" "8589"
 // brush 0
 {
 ( 1070 -404 365.39999999999998 ) ( 1070 -404 367.39999999999998 ) ( 1070 -396 367.39999999999998 ) solid_gray_dd 1 -10 90 1 -1
@@ -8019,7 +8035,7 @@
 "angle" "-0"
 "light" "150"
 "target" "info_null_corridor3"
-"_tb_group" "7709"
+"_tb_group" "8589"
 }
 // entity 113
 {
@@ -8075,15 +8091,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7710"
+"_tb_id" "8590"
 }
 // entity 120
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7711"
-"_tb_group" "7710"
+"_tb_id" "8591"
+"_tb_group" "8590"
 // brush 0
 {
 ( 1394 236 358.19999999999999 ) ( 1394 248 355 ) ( 1394 236 355 ) solid_gray_l 11 -2.79999 -0 1 -1
@@ -8158,15 +8174,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7712"
+"_tb_id" "8592"
 }
 // entity 122
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7713"
-"_tb_group" "7712"
+"_tb_id" "8593"
+"_tb_group" "8592"
 // brush 0
 {
 ( 1443 -190 358.39999999999998 ) ( 1443 -178 355.19999999999999 ) ( 1443 -190 355.19999999999999 ) solid_gray_l 7 -2.79999 -0 1 -1
@@ -8241,7 +8257,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7714"
+"_tb_id" "8594"
 // brush 0
 {
 ( 1606 -107 136 ) ( 1606 -107 138 ) ( 1606 -52 138 ) solid_gray_dd 12.5719 2 180 1 -1
@@ -8279,14 +8295,14 @@
 "angle" "90"
 "light" "150"
 "target" "info_null_ra_wall3"
-"_tb_group" "7714"
+"_tb_group" "8594"
 }
 // entity 125
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7715"
+"_tb_id" "8595"
 // brush 0
 {
 ( 1381 296 133 ) ( 1381 296 135 ) ( 1381 304 135 ) solid_gray_dd 1 -4 90 1 -1
@@ -8324,7 +8340,7 @@
 "angle" "-0"
 "light" "150"
 "target" "info_null_ra_wall1"
-"_tb_group" "7715"
+"_tb_group" "8595"
 }
 // entity 127
 {
@@ -8795,15 +8811,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7716"
+"_tb_id" "8596"
 }
 // entity 196
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7717"
-"_tb_group" "7716"
+"_tb_id" "8597"
+"_tb_group" "8596"
 // brush 0
 {
 ( -105.5 -130 232.19999999999999 ) ( -107.75 -125.5 232.19999999999999 ) ( -107.75 -125.5 229 ) fb_yellow_l 3.99998 2.20001 -0 0.75 -1
@@ -8966,15 +8982,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7718"
+"_tb_id" "8598"
 }
 // entity 198
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7719"
-"_tb_group" "7718"
+"_tb_id" "8599"
+"_tb_group" "8598"
 // brush 0
 {
 ( -57.5 -130 232.19999999999999 ) ( -59.75 -125.5 232.19999999999999 ) ( -59.75 -125.5 229 ) fb_yellow_l 3.99998 2.20001 -0 0.75 -1
@@ -9137,15 +9153,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7720"
+"_tb_id" "8600"
 }
 // entity 200
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7721"
-"_tb_group" "7720"
+"_tb_id" "8601"
+"_tb_group" "8600"
 // brush 0
 {
 ( -9.5 -130 232.19999999999999 ) ( -11.75 -125.5 232.19999999999999 ) ( -11.75 -125.5 229 ) fb_yellow_l 3.99998 2.20001 -0 0.75 -1
@@ -9308,15 +9324,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7722"
+"_tb_id" "8602"
 }
 // entity 202
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7723"
-"_tb_group" "7722"
+"_tb_id" "8603"
+"_tb_group" "8602"
 // brush 0
 {
 ( 150 -192 232.19999999999999 ) ( 147.75 -187.5 232.19999999999999 ) ( 147.75 -187.5 229 ) fb_yellow_l 6.66666 2.20001 -0 0.75 -1
@@ -9479,15 +9495,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7724"
+"_tb_id" "8604"
 }
 // entity 204
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7725"
-"_tb_group" "7724"
+"_tb_id" "8605"
+"_tb_group" "8604"
 // brush 0
 {
 ( 278 273 179.5 ) ( 275.74999999999955 277.5 179.5 ) ( 275.74999999999955 277.5 176.30000000000001 ) fb_yellow_l -5.33334 6.90002 -0 0.75 -1
@@ -9650,15 +9666,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7726"
+"_tb_id" "8606"
 }
 // entity 206
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7727"
-"_tb_group" "7726"
+"_tb_id" "8607"
+"_tb_group" "8606"
 // brush 0
 {
 ( 439.5 -80 26.5 ) ( 437.24999999999955 -75.5 26.5 ) ( 437.24999999999955 -75.5 23.300000000000011 ) fb_yellow_l -14.6667 -0.0999756 -0 0.75 -1
@@ -9821,15 +9837,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7728"
+"_tb_id" "8608"
 }
 // entity 208
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7729"
-"_tb_group" "7728"
+"_tb_id" "8609"
+"_tb_group" "8608"
 // brush 0
 {
 ( 629.49999999999955 225.5 -5.8000000000000114 ) ( 627.24999999999955 230 -5.8000000000000114 ) ( 627.24999999999955 230 -9 ) fb_yellow_l -6 0.200018 -0 0.75 -1
@@ -9992,15 +10008,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7730"
+"_tb_id" "8610"
 }
 // entity 210
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7731"
-"_tb_group" "7730"
+"_tb_id" "8611"
+"_tb_group" "8610"
 // brush 0
 {
 ( 695 -100 26.199999999999989 ) ( 692.75 -95.5 26.199999999999989 ) ( 692.75 -95.5 23 ) fb_yellow_l 12 0.20001 -0 0.75 -1
@@ -10163,15 +10179,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7732"
+"_tb_id" "8612"
 }
 // entity 212
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7733"
-"_tb_group" "7732"
+"_tb_id" "8613"
+"_tb_group" "8612"
 // brush 0
 {
 ( 855 -416 26.199999999999989 ) ( 852.75 -411.5 26.199999999999989 ) ( 852.75 -411.5 23 ) fb_yellow_l 1.33337 0.20001 -0 0.75 -1
@@ -10334,15 +10350,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7734"
+"_tb_id" "8614"
 }
 // entity 214
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7735"
-"_tb_group" "7734"
+"_tb_id" "8615"
+"_tb_group" "8614"
 // brush 0
 {
 ( 1174 -332 211.5 ) ( 1171.7499999999995 -327.5 211.5 ) ( 1171.7499999999995 -327.5 208.30000000000001 ) fb_yellow_l -14.6667 6.90002 -0 0.75 -1
@@ -10512,15 +10528,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7736"
+"_tb_id" "8616"
 }
 // entity 217
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7737"
-"_tb_group" "7736"
+"_tb_id" "8617"
+"_tb_group" "8616"
 // brush 0
 {
 ( 1322 203 160.19999999999999 ) ( 1319.7499999999995 207.5 160.19999999999999 ) ( 1319.7499999999995 207.5 157 ) fb_yellow_l 8 10.2 -0 0.75 -1
@@ -10683,15 +10699,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7738"
+"_tb_id" "8618"
 }
 // entity 219
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7739"
-"_tb_group" "7738"
+"_tb_id" "8619"
+"_tb_group" "8618"
 // brush 0
 {
 ( 1558 255 -25.5 ) ( 1555.7499999999995 259.5 -25.5 ) ( 1555.7499999999995 259.5 -28.699999999999989 ) fb_yellow_l 2.66663 -12.1 -0 0.75 -1
@@ -10854,15 +10870,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7740"
+"_tb_id" "8620"
 }
 // entity 221
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7741"
-"_tb_group" "7740"
+"_tb_id" "8621"
+"_tb_group" "8620"
 // brush 0
 {
 ( 834 220 211.25 ) ( 831.74999999999955 224.5 211.25 ) ( 831.74999999999955 224.5 208.05000000000001 ) fb_yellow_l 1.33331 7.15002 -0 0.75 -1
@@ -11025,15 +11041,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7742"
+"_tb_id" "8622"
 }
 // entity 223
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7743"
-"_tb_group" "7742"
+"_tb_id" "8623"
+"_tb_group" "8622"
 // brush 0
 {
 ( 834 164 211.25 ) ( 831.74999999999955 168.5 211.25 ) ( 831.74999999999955 168.5 208.05000000000001 ) fb_yellow_l 12 7.15002 -0 0.75 -1
@@ -11196,15 +11212,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7744"
+"_tb_id" "8624"
 }
 // entity 225
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7745"
-"_tb_group" "7744"
+"_tb_id" "8625"
+"_tb_group" "8624"
 // brush 0
 {
 ( 834 108 211.25 ) ( 831.74999999999955 112.5 211.25 ) ( 831.74999999999955 112.5 208.05000000000001 ) fb_yellow_l 6.66666 7.15002 -0 0.75 -1
@@ -11367,15 +11383,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7746"
+"_tb_id" "8626"
 }
 // entity 227
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7747"
-"_tb_group" "7746"
+"_tb_id" "8627"
+"_tb_group" "8626"
 // brush 0
 {
 ( 834 52 211.25 ) ( 831.74999999999955 56.5 211.25 ) ( 831.74999999999955 56.5 208.05000000000001 ) fb_yellow_l 1.33332 7.15002 -0 0.75 -1
@@ -11538,15 +11554,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7748"
+"_tb_id" "8628"
 }
 // entity 229
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7749"
-"_tb_group" "7748"
+"_tb_id" "8629"
+"_tb_group" "8628"
 // brush 0
 {
 ( 834 -4 211.25 ) ( 831.74999999999955 0.5 211.25 ) ( 831.74999999999955 0.5 208.05000000000001 ) fb_yellow_l 12 7.15002 -0 0.75 -1
@@ -11709,15 +11725,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7750"
+"_tb_id" "8630"
 }
 // entity 231
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7751"
-"_tb_group" "7750"
+"_tb_id" "8631"
+"_tb_group" "8630"
 // brush 0
 {
 ( 1150 332 211.44999999999999 ) ( 1147.7499999999995 336.5 211.44999999999999 ) ( 1147.7499999999995 336.5 208.25 ) fb_yellow_l -4 6.95001 -0 0.75 -1
@@ -11880,15 +11896,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7752"
+"_tb_id" "8632"
 }
 // entity 233
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7753"
-"_tb_group" "7752"
+"_tb_id" "8633"
+"_tb_group" "8632"
 // brush 0
 {
 ( 1198 332 211.44999999999999 ) ( 1195.7499999999995 336.5 211.44999999999999 ) ( 1195.7499999999995 336.5 208.25 ) fb_yellow_l -4 6.95001 -0 0.75 -1
@@ -12051,15 +12067,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7754"
+"_tb_id" "8634"
 }
 // entity 235
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7755"
-"_tb_group" "7754"
+"_tb_id" "8635"
+"_tb_group" "8634"
 // brush 0
 {
 ( 1246 332 211.44999999999999 ) ( 1243.7499999999995 336.5 211.44999999999999 ) ( 1243.7499999999995 336.5 208.25 ) fb_yellow_l -4 6.95001 -0 0.75 -1
@@ -12573,15 +12589,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7756"
+"_tb_id" "8636"
 }
 // entity 287
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7757"
-"_tb_group" "7756"
+"_tb_id" "8637"
+"_tb_group" "8636"
 // brush 0
 {
 ( 1008 -224 211.5 ) ( 1005.7499999999995 -219.5 211.5 ) ( 1005.7499999999995 -219.5 208.30000000000001 ) fb_yellow_l -14.6667 6.90002 -0 0.75 -1
@@ -12794,7 +12810,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "thct_logo"
-"_tb_id" "7758"
+"_tb_id" "8638"
 // brush 0
 {
 ( 298.26913292610215 -106.64894654563541 421.09999999999997 ) ( 302.7946163256961 -111.17442994522935 421.09999999999997 ) ( 302.7946163256961 -111.17442994522935 461.89999999999998 ) solid_gray_l 5.71255 -5.02502 180 1.13137 -0.8
@@ -12874,7 +12890,7 @@
 "origin" "281 -85 455"
 "targetname" "null_hamp2"
 "angle" "135"
-"_tb_group" "7758"
+"_tb_group" "8638"
 }
 // entity 297
 {
@@ -12882,7 +12898,7 @@
 "origin" "289 -76 474"
 "target" "null_hamp2"
 "delay" "1"
-"_tb_group" "7758"
+"_tb_group" "8638"
 }
 // entity 298
 {
@@ -12936,15 +12952,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7759"
+"_tb_id" "8639"
 }
 // entity 303
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7760"
-"_tb_group" "7759"
+"_tb_id" "8640"
+"_tb_group" "8639"
 // brush 0
 {
 ( 1014 -112 -5.8000000000000114 ) ( 1011.7499999999995 -107.5 -5.8000000000000114 ) ( 1011.7499999999995 -107.5 -9 ) fb_yellow_l 12 0.200012 -0 0.75 -1
