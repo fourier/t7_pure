@@ -2240,7 +2240,7 @@
 ( 728 108 -58 ) ( 728 -340 -58 ) ( 728 -340 205 ) solid_gray_dd 0 0 0 1 1
 ( 720 -320 -58 ) ( 720 128 -58 ) ( 720 128 205 ) wall_hb 0 12 0 1 1
 ( 700 -0 205 ) ( 700 -0 -58 ) ( 956 -0 -58 ) solid_gray_dd 0 0 0 1 1
-( 956 -192 -58 ) ( 700 -192 -58 ) ( 700 -192 205 ) solid_gray_dd 0 0 0 1 1
+( 956 -195 -58 ) ( 700 -195 -58 ) ( 700 -195 205 ) solid_gray_dd -0 -0 -0 1 1
 ( 720 126 232 ) ( 976 126 232 ) ( 976 -322 232 ) solid_gray_dd 0 14 0 1 1
 ( 976 172 179 ) ( 720 172 179 ) ( 720 -276 179 ) solid_gray_dd 0 0 0 1 1
 }
@@ -3503,7 +3503,7 @@
 {
 ( 728 129 205 ) ( 728 -159 205 ) ( 728 -159 461 ) solid_gray_dd 0 0 0 1 1
 ( 720 -160 205 ) ( 720 128 205 ) ( 720 128 461 ) wall_hb 0 12 0 1 1
-( 720 -0 459 ) ( 720 -0 203 ) ( 736 -0 203 ) solid_gray_dd 0 0 0 1 1
+( 720 3 459 ) ( 720 3 203 ) ( 736 3 203 ) solid_gray_dd -0 -0 -0 1 1
 ( 738 -192 205 ) ( 722 -192 205 ) ( 722 -192 461 ) solid_gray_dd 0 0 0 1 1
 ( 712 115 264 ) ( 728 115 264 ) ( 728 -173 264 ) solid_gray_dd 0 0 0 1 1
 ( 734 128 232 ) ( 718 128 232 ) ( 718 -160 232 ) solid_gray_dd 0 0 0 1 1
@@ -8409,7 +8409,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7297"
+"_tb_id" "7373"
 // brush 0
 {
 ( 139.37615433949901 -335.7192761051831 356 ) ( 139.37615433949901 -335.7192761051831 358 ) ( 100.48528137423891 -296.82840313992295 358 ) solid_gray_dd -9.77905 6 180 0.707107 -1
@@ -8447,7 +8447,7 @@
 "angle" "135"
 "target" "null_gl"
 "light" "50"
-"_tb_group" "7297"
+"_tb_group" "7373"
 }
 // entity 254
 {
@@ -8508,7 +8508,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "7298"
+"_tb_id" "7374"
 // brush 0
 {
 ( -179 -44 366 ) ( -179 -44 368 ) ( -179 -36 368 ) solid_gray_dd -0 6 90 1 1
@@ -8542,7 +8542,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "7299"
+"_tb_id" "7375"
 // brush 0
 {
 ( 4 47 366 ) ( 4 47 368 ) ( 4 102 368 ) solid_gray_dd -0 -0 180 1 -1
@@ -8647,7 +8647,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "7300"
+"_tb_id" "7376"
 // brush 0
 {
 ( 879 -324 187 ) ( 879 -332 187 ) ( 879 -332 189 ) solid_gray_dd 3 -10 90 1 -1
@@ -8731,7 +8731,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "7301"
+"_tb_id" "7377"
 // brush 0
 {
 ( 373 500 368 ) ( 373 500 370 ) ( 373 508 370 ) solid_gray_dd -2 6 90 1 1
@@ -8765,7 +8765,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "7302"
+"_tb_id" "7378"
 // brush 0
 {
 ( 852 372 368 ) ( 852 372 370 ) ( 852 380 370 ) solid_gray_dd -2 6 90 1 1
@@ -8799,7 +8799,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "thct_logo"
-"_tb_id" "7303"
+"_tb_id" "7379"
 // brush 0
 {
 ( 295.2691329261022 -107.31954165742758 425.09999999999997 ) ( 299.7946163256961 -111.84502505702159 425.09999999999997 ) ( 299.7946163256961 -111.84502505702159 465.89999999999998 ) solid_gray_l 1.4171 15.975 180 1.13137 -0.8
@@ -8879,7 +8879,7 @@
 "origin" "278 -86 459"
 "targetname" "null_hamp2"
 "angle" "135"
-"_tb_group" "7303"
+"_tb_group" "7379"
 }
 // entity 286
 {
@@ -8887,22 +8887,22 @@
 "origin" "286 -77 478"
 "target" "null_hamp2"
 "delay" "1"
-"_tb_group" "7303"
+"_tb_group" "7379"
 }
 // entity 287
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7304"
+"_tb_id" "7380"
 }
 // entity 288
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7305"
-"_tb_group" "7304"
+"_tb_id" "7381"
+"_tb_group" "7380"
 // brush 0
 {
 ( 298.40871644086423 -66 480 ) ( 298.40871644086423 -54 476.80000000000001 ) ( 298.40871644086423 -66 476.80000000000001 ) solid_gray_l -3 -2.79999 -0 1 -1
@@ -9006,15 +9006,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7306"
+"_tb_id" "7382"
 }
 // entity 294
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7307"
-"_tb_group" "7306"
+"_tb_id" "7383"
+"_tb_group" "7382"
 // brush 0
 {
 ( 355 392.92096246664869 146.19999999999999 ) ( 355 404.92096246664869 143 ) ( 355 392.92096246664869 143 ) solid_gray_l -3.92096 5 -0 1 -1
@@ -9103,7 +9103,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7308"
+"_tb_id" "7384"
 // brush 0
 {
 ( 899 191 149.60000000000002 ) ( 899 191 151.60000000000002 ) ( 899 246 151.60000000000002 ) solid_gray_dd 2.5719 -10 180 1 -1
@@ -9140,7 +9140,7 @@
 "angle" "90"
 "light" "200"
 "delay" "0"
-"_tb_group" "7308"
+"_tb_group" "7384"
 }
 // entity 299
 {
@@ -9279,15 +9279,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7309"
+"_tb_id" "7385"
 }
 // entity 318
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7310"
-"_tb_group" "7309"
+"_tb_id" "7386"
+"_tb_group" "7385"
 // brush 0
 {
 ( 155 368 360.19999999999999 ) ( 155 380 357 ) ( 155 368 357 ) solid_gray_l 4 11 -0 1 -1
@@ -9362,15 +9362,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "7311"
+"_tb_id" "7387"
 }
 // entity 320
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "7312"
-"_tb_group" "7311"
+"_tb_id" "7388"
+"_tb_group" "7387"
 // brush 0
 {
 ( 569 -452 180.19999999999999 ) ( 569 -440 177 ) ( 569 -452 177 ) solid_gray_l 8 -1 -0 1 -1
@@ -9445,7 +9445,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "7313"
+"_tb_id" "7389"
 // brush 0
 {
 ( 1081 -408 365 ) ( 1081 -408 367 ) ( 1081 -400 367 ) solid_gray_dd 1 2 90 1 1
@@ -9479,7 +9479,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "7314"
+"_tb_id" "7390"
 // brush 0
 {
 ( 1382 308 129.60000000000002 ) ( 1382 308 131.60000000000002 ) ( 1382 316 131.60000000000002 ) solid_gray_dd -2 7 90 1 1
@@ -9513,7 +9513,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "7315"
+"_tb_id" "7391"
 // brush 0
 {
 ( 1612 -110 136 ) ( 1612 -110 138 ) ( 1612 -55 138 ) solid_gray_dd 3 -6 180 1 -1
