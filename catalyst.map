@@ -5,7 +5,7 @@
 "classname" "worldspawn"
 "wad" "../id1/maps/wads/catalyst.wad"
 "worldtype" "0"
-"message" "The Catalyst by thct // q1 conversion by fourier"
+"message" "The Catalyst by thct // q1 adaptation by fourier"
 // brush 0
 {
 ( 736 128 179 ) ( 736 384 179 ) ( 736 384 166 ) solid_gray_dd -0 -0 -0 1 1
@@ -621,7 +621,7 @@
 ( 560 -272 219 ) ( 560 -256 219 ) ( 560 -256 230 ) solid_gray_dd -0 -0 -0 1 1
 ( 560 -256 230 ) ( 560 -256 219 ) ( 688 -256 219 ) solid_gray_dd -0 -0 -0 1 1
 ( 688 -272 219 ) ( 560 -272 219 ) ( 560 -272 230 ) solid_gray_dd -0 -0 -0 1 1
-( 560 -256 232 ) ( 688 -256 232 ) ( 688 -272 232 ) solid_gray_dd -16 -0 -0 1 1
+( 560 -256 232 ) ( 688 -256 232 ) ( 688 -272 232 ) floor4 -16 -0 -0 1 1
 ( 688 -256 219 ) ( 560 -256 219 ) ( 560 -272 219 ) solid_gray_m -0 -0 -0 1 1
 }
 // brush 70
@@ -1568,7 +1568,7 @@
 // brush 177
 {
 ( 976 -342 179 ) ( 976 -534 179 ) ( 976 -534 211 ) solid_gray_m 0 0 0 1 1
-( 912 -519 179 ) ( 912 -327 179 ) ( 912 -327 211 ) solid_gray_m 0 0 0 1 1
+( 912 -519 179 ) ( 912 -327 179 ) ( 912 -327 211 ) solid_gray_dd 0 0 0 1 1
 ( 820 -320 211 ) ( 820 -320 179 ) ( 1182 -320 179 ) solid_gray_m 0 0 0 1 1
 ( 1178 -336 179 ) ( 816 -336 179 ) ( 816 -336 211 ) solid_gray_m 0 0 0 1 1
 ( 816 -320 198 ) ( 1178 -320 198 ) ( 1178 -512 198 ) solid_gray_m 0 0 0 1 1
@@ -3063,7 +3063,7 @@
 // brush 346
 {
 ( 144 -0 384 ) ( 144 160 384 ) ( 176 -0 358 ) solid_gray_m 14 0 0 1 1
-( 8 160 384 ) ( 8 -0 384 ) ( 8 160 358 ) solid_gray_m 2 0 0 1 1
+( 8 160 384 ) ( 8 -0 384 ) ( 8 160 358 ) solid_gray_dd 2 0 0 1 1
 ( 330 160 366 ) ( 34 160 366 ) ( 330 160 358 ) solid_gray_m 14 0 0 1 1
 ( -230 -0 358 ) ( -230 -0 366 ) ( 66 -0 358 ) solid_gray_m 6 0 0 1 1
 ( 16 -0 384 ) ( 16 160 384 ) ( 144 -0 384 ) solid_gray_m 4 4 0 1 1
@@ -3074,7 +3074,7 @@
 ( 176 210 366 ) ( 176 210 358 ) ( 176 202 366 ) solid_gray_m 14 0 0 1 1
 ( -8 180 358 ) ( -8 188 358 ) ( -8 180 366 ) solid_gray_m 4 0 0 1 1
 ( 325 384 366 ) ( 29 384 366 ) ( 325 384 358 ) solid_gray_m 3 0 0 1 1
-( -230 160 358 ) ( -230 160 366 ) ( 66 160 358 ) solid_gray_m 6 0 0 1 1
+( -230 160 358 ) ( -230 160 366 ) ( 66 160 358 ) solid_gray_dd 6 0 0 1 1
 ( 67 212 368 ) ( 67 204 368 ) ( -229 212 368 ) solid_gray_m 5 4 0 1 1
 ( -228 204 358 ) ( 68 204 358 ) ( -228 212 358 ) solid_gray_m 4 4 0 1 1
 }
@@ -3082,7 +3082,7 @@
 {
 ( 144 -110 366 ) ( 144 -110 358 ) ( 144 -118 366 ) solid_gray_m 0 0 0 1 1
 ( -8 -140 358 ) ( -8 -132 358 ) ( -8 -140 366 ) solid_gray_m 0 0 0 1 1
-( 330 -0 366 ) ( 34 -0 366 ) ( 330 -0 358 ) solid_gray_m 0 0 0 1 1
+( 330 -0 366 ) ( 34 -0 366 ) ( 330 -0 358 ) solid_gray_dd 0 0 0 1 1
 ( -240 -32 358 ) ( -240 -32 366 ) ( 56 -32 358 ) solid_gray_m 0 0 0 1 1
 ( 68 -108 368 ) ( 68 -116 368 ) ( -228 -108 368 ) solid_gray_m 0 0 0 1 1
 ( -228 -116 358 ) ( 68 -116 358 ) ( -228 -108 358 ) solid_gray_m 0 0 0 1 1
@@ -3091,14 +3091,14 @@
 {
 ( 408 512 368 ) ( 408 512 360 ) ( 408 488 368 ) solid_gray_m 0 0 0 1 1
 ( 280 490 360 ) ( 280 514 360 ) ( 280 490 368 ) solid_gray_m 0 0 0 1 1
-( 322 496 366 ) ( 284 496 366 ) ( 322 496 358 ) solid_gray_m 0 0 0 1 1
+( 322 496 366 ) ( 284 496 366 ) ( 322 496 358 ) solid_gray_dd 0 0 0 1 1
 ( 268 384 358 ) ( 268 384 366 ) ( 306 384 358 ) solid_gray_m 0 0 0 1 1
 ( 326 512 370 ) ( 326 488 370 ) ( 288 512 370 ) solid_gray_m -0 -0 -0 1 1
 ( 288 488 358 ) ( 326 488 358 ) ( 288 512 358 ) solid_gray_m 0 0 0 1 1
 }
 // brush 350
 {
-( 280 512 368 ) ( 280 512 360 ) ( 280 488 368 ) solid_gray_m 0 0 0 1 1
+( 280 512 368 ) ( 280 512 360 ) ( 280 488 368 ) solid_gray_dd 0 0 0 1 1
 ( 120 512 358 ) ( 120 512 368 ) ( -8 384 368 ) solid_gray_m 0 0 0 1 1
 ( 120 512 368 ) ( 120 512 358 ) ( 280 512 358 ) solid_gray_m 0 0 0 1 1
 ( 146 384 358 ) ( 146 384 366 ) ( 184 384 358 ) solid_gray_m 0 0 0 1 1
@@ -3176,7 +3176,7 @@
 // brush 359
 {
 ( 528 512 409 ) ( 528 512 358 ) ( 656 384 358 ) solid_gray_m 0 0 0 1 1
-( 408 490 358 ) ( 408 514 358 ) ( 408 490 366 ) solid_gray_m 0 0 0 1 1
+( 408 490 358 ) ( 408 514 358 ) ( 408 490 366 ) solid_gray_dd 0 0 0 1 1
 ( 528 512 358 ) ( 528 512 409 ) ( 408 512 410 ) solid_gray_m 0 0 0 1 1
 ( -64 384 358 ) ( -64 512 410 ) ( 64 384 358 ) solid_gray_m 0 0 0 1 1
 ( 448 488 358 ) ( 486 488 358 ) ( 448 512 358 ) solid_gray_m 0 0 0 1 1
@@ -4041,7 +4041,7 @@
 }
 // brush 457
 {
-( 976 -256 376 ) ( 976 -256 360 ) ( 976 -416 376 ) solid_gray_m 0 0 0 1 1
+( 976 -256 376 ) ( 976 -256 360 ) ( 976 -416 376 ) solid_gray_dd 0 0 0 1 1
 ( 896 -416 -64 ) ( 736 -256 -64 ) ( 896 -416 64 ) solid_gray_m 0 0 0 1 1
 ( 976 -256 376 ) ( 944 -256 376 ) ( 976 -256 360 ) solid_gray_m 0 0 0 1 1
 ( 944 -416 360 ) ( 944 -416 376 ) ( 976 -416 360 ) solid_gray_m 0 0 0 1 1
@@ -4266,7 +4266,7 @@
 }
 // brush 483
 {
-( 784 -342 179 ) ( 784 -534 179 ) ( 784 -534 211 ) solid_gray_m 0 0 0 1 1
+( 784 -342 179 ) ( 784 -534 179 ) ( 784 -534 211 ) solid_gray_dd 0 0 0 1 1
 ( 720 -519 179 ) ( 720 -327 179 ) ( 720 -327 211 ) solid_gray_m 0 0 0 1 1
 ( 644 -320 211 ) ( 644 -320 179 ) ( 1006 -320 179 ) solid_gray_m 0 0 0 1 1
 ( 1018 -336 179 ) ( 656 -336 179 ) ( 656 -336 211 ) solid_gray_m 0 0 0 1 1
@@ -4307,7 +4307,7 @@
 ( 7 160 384 ) ( -17 160 384 ) ( 7 160 368 ) solid_gray_dd -0 10 -0 1 1
 ( -16 -0 368 ) ( -16 -0 384 ) ( 8 -0 368 ) solid_gray_dd -0 10 -0 1 1
 ( 7 161 378 ) ( 7 -0 378 ) ( -17 161 378 ) solid_gray_dd -0 -0 -0 1 1
-( -16 -0 368 ) ( 8 -0 368 ) ( -16 161 368 ) fb30_w2 -0 -0 -0 1 1
+( -16 -0 368 ) ( 8 -0 368 ) ( -16 161 368 ) solid_gray_dd -0 -0 -0 1 1
 }
 // brush 488
 {
@@ -8786,7 +8786,7 @@
 }
 // brush 988
 {
-( 1600 -0 128 ) ( 1600 -288 128 ) ( 1600 -288 461 ) wall_hb 0 -14 0 1 1
+( 1600 -0 128 ) ( 1600 -288 128 ) ( 1600 -288 461 ) solid_gray_dd 0 -14 0 1 1
 ( 1520 -0 461 ) ( 1520 -288 461 ) ( 1520 -288 128 ) wall_hb 0 -14 0 1 1
 ( 1520 -0 128 ) ( 1592 -0 128 ) ( 1592 -0 461 ) wall_hb 0 -14 0 1 1
 ( 1488 -160 128 ) ( 1488 -160 461 ) ( 1560 -160 461 ) wall_hb 0 -14 0 1 1
@@ -11105,7 +11105,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "401"
+"_tb_id" "676"
 // brush 0
 {
 ( 139.37615433949901 -335.7192761051831 356 ) ( 139.37615433949901 -335.7192761051831 358 ) ( 100.48528137423891 -296.82840313992295 358 ) solid_gray_dd -9.77905 6 180 0.707107 -1
@@ -11141,7 +11141,7 @@
 "angle" "135"
 "target" "null_gl"
 "light" "300"
-"_tb_group" "401"
+"_tb_group" "676"
 }
 // entity 211
 {
@@ -11195,7 +11195,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "402"
+"_tb_id" "677"
 // brush 0
 {
 ( -179 -44 366 ) ( -179 -44 368 ) ( -179 -36 368 ) solid_gray_dd -0 6 90 1 1
@@ -11229,7 +11229,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "403"
+"_tb_id" "678"
 // brush 0
 {
 ( 4 47 366 ) ( 4 47 368 ) ( 4 102 368 ) solid_gray_dd -0 -0 180 1 -1
@@ -11313,7 +11313,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "404"
+"_tb_id" "679"
 // brush 0
 {
 ( 879 -324 187 ) ( 879 -332 187 ) ( 879 -332 189 ) solid_gray_dd 3 -10 90 1 -1
@@ -11379,7 +11379,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "405"
+"_tb_id" "680"
 // brush 0
 {
 ( 373 500 368 ) ( 373 500 370 ) ( 373 508 370 ) solid_gray_dd -2 6 90 1 1
@@ -11413,7 +11413,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "406"
+"_tb_id" "681"
 // brush 0
 {
 ( 852 372 368 ) ( 852 372 370 ) ( 852 380 370 ) solid_gray_dd -2 6 90 1 1
@@ -11447,7 +11447,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "thct_logo"
-"_tb_id" "407"
+"_tb_id" "682"
 // brush 0
 {
 ( 295.2691329261022 -107.31954165742758 425.09999999999997 ) ( 299.7946163256961 -111.84502505702159 425.09999999999997 ) ( 299.7946163256961 -111.84502505702159 465.89999999999998 ) solid_gray_l 1.4171 15.975 180 1.13137 -0.8
@@ -11527,7 +11527,7 @@
 "origin" "278 -86 459"
 "targetname" "null_hamp2"
 "angle" "135"
-"_tb_group" "407"
+"_tb_group" "682"
 }
 // entity 237
 {
@@ -11536,22 +11536,22 @@
 "target" "null_hamp2"
 "delay" "1"
 "light" "150"
-"_tb_group" "407"
+"_tb_group" "682"
 }
 // entity 238
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "408"
+"_tb_id" "683"
 }
 // entity 239
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "409"
-"_tb_group" "408"
+"_tb_id" "684"
+"_tb_group" "683"
 // brush 0
 {
 ( 298.40871644086423 -66 480 ) ( 298.40871644086423 -54 476.80000000000001 ) ( 298.40871644086423 -66 476.80000000000001 ) solid_gray_l -3 -2.79999 -0 1 -1
@@ -11648,15 +11648,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "410"
+"_tb_id" "685"
 }
 // entity 244
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "411"
-"_tb_group" "410"
+"_tb_id" "686"
+"_tb_group" "685"
 // brush 0
 {
 ( 355 392.92096246664869 146.19999999999999 ) ( 355 404.92096246664869 143 ) ( 355 392.92096246664869 143 ) solid_gray_l -3.92096 5 -0 1 -1
@@ -11738,7 +11738,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "412"
+"_tb_id" "687"
 // brush 0
 {
 ( 899 191 149.60000000000002 ) ( 899 191 151.60000000000002 ) ( 899 246 151.60000000000002 ) solid_gray_dd 2.5719 -10 180 1 -1
@@ -11773,7 +11773,7 @@
 "origin" "904 222 146"
 "light" "300"
 "target" "info_null_lower_rl"
-"_tb_group" "412"
+"_tb_group" "687"
 }
 // entity 248
 {
@@ -11910,15 +11910,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "413"
+"_tb_id" "688"
 }
 // entity 266
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "414"
-"_tb_group" "413"
+"_tb_id" "689"
+"_tb_group" "688"
 // brush 0
 {
 ( 115 386 360.19999999999999 ) ( 115 398 357 ) ( 115 386 357 ) solid_gray_l -14 11 -0 1 -1
@@ -11993,15 +11993,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "415"
+"_tb_id" "690"
 }
 // entity 268
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "416"
-"_tb_group" "415"
+"_tb_id" "691"
+"_tb_group" "690"
 // brush 0
 {
 ( 569 -452 180.19999999999999 ) ( 569 -440 177 ) ( 569 -452 177 ) solid_gray_l 8 -1 -0 1 -1
@@ -12076,7 +12076,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "417"
+"_tb_id" "692"
 // brush 0
 {
 ( 1081 -408 365 ) ( 1081 -408 367 ) ( 1081 -400 367 ) solid_gray_dd 1 2 90 1 1
@@ -12110,7 +12110,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "industrial_lamp"
-"_tb_id" "418"
+"_tb_id" "693"
 // brush 0
 {
 ( 1382 308 129.60000000000002 ) ( 1382 308 131.60000000000002 ) ( 1382 316 131.60000000000002 ) solid_gray_dd -2 7 90 1 1
@@ -12144,7 +12144,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Industrial lamp"
-"_tb_id" "419"
+"_tb_id" "694"
 // brush 0
 {
 ( 1612 -110 136 ) ( 1612 -110 138 ) ( 1612 -55 138 ) solid_gray_dd 3 -6 180 1 -1
@@ -12317,15 +12317,15 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "floor_lamp"
-"_tb_id" "420"
+"_tb_id" "695"
 }
 // entity 291
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ceil_lamp"
-"_tb_id" "421"
-"_tb_group" "420"
+"_tb_id" "696"
+"_tb_group" "695"
 // brush 0
 {
 ( 588 -296 358 ) ( 588 -284 354.80000000000001 ) ( 588 -296 354.80000000000001 ) solid_gray_l 12 13.2 -0 1 -1
@@ -13978,7 +13978,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Teleport"
-"_tb_id" "422"
+"_tb_id" "697"
 // brush 0
 {
 ( 1152 -529 78 ) ( 1197 -529 102 ) ( 1197 -523 102 ) blue_gdk -13.7142 -7.71436 -0 0.7 0.7
@@ -14111,7 +14111,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Teleport"
-"_tb_id" "423"
+"_tb_id" "698"
 // brush 0
 {
 ( 1777 -453 38 ) ( 1777 -363 38 ) ( 1777 -408 14 ) blue_lt 6.85718 -11.2429 -0 0.7 0.7
@@ -14245,7 +14245,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Teleport"
-"_tb_id" "424"
+"_tb_id" "699"
 // brush 0
 {
 ( 352 530 78 ) ( 352 524 78 ) ( 397 524 102 ) blue_gdk -9.14282 6.85699 180 0.7 0.7
@@ -14379,7 +14379,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Teleport"
-"_tb_id" "425"
+"_tb_id" "700"
 // brush 0
 {
 ( -208 -465 284 ) ( -163 -465 308 ) ( -163 -459 308 ) blue_gdk -6.85718 3.71436 -0 0.7 0.7
