@@ -7,7 +7,7 @@ popular Reflex Arena by thct to QuakeWorld.
 
 Title                   : The Catalyst by THCT
 Filename                : catalyst.bsp
-Release date            : 2019-08-16
+Release date            : 2019-08-18
 Author                  : fourier
 Email Address           : fourier@protonmail.com
 Other Files By Author   :
